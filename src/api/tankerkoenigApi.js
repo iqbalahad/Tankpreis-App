@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "00000000-0000-0000-0000-000000000002";
+const API_KEY = "00000000-0000-0000-0000-000000000002"; //DEMO-Key; ersetzte mit deinem echten API_KEY
 
 export const getStationsByPostCode = async (lat, lng, radius, filterOpen, sort, type) => {
     try {
