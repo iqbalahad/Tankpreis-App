@@ -32,7 +32,7 @@ yarn install
 
 Die App verwendet die Tankerkönig API. Um die App zu nutzen, musst du den Demo-API-Schlüssel im Projekt durch einen echten Schlüssel ersetzen, den du von der Tankerkönig-Website erhalten kannst.
 
-Ersetze den Schlüssel in der Konfigurationsdatei (z.B. `config.js` oder `.env`):
+Ersetze den Schlüssel in der ../src/api/tankerkönigApi.js Datei.
 
 ```javascript
 const API_KEY = 'dein_echter_api_schlüssel';
