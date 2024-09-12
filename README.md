@@ -28,6 +28,14 @@ oder
 ```bash
 yarn install
 ```
+### Expo CLI installieren:
+
+Falls du Expo CLI noch nicht installiert hast, kannst du dies mit folgendem Befehl tun:
+
+```bash
+npm install -g expo-cli
+```
+
 ### API-Schlüssel einrichten:
 
 Die App verwendet die Tankerkönig API. Um die App zu nutzen, musst du den Demo-API-Schlüssel im Projekt durch einen echten Schlüssel ersetzen, den du von der Tankerkönig-Website erhalten kannst.
@@ -39,17 +47,11 @@ const API_KEY = 'dein_echter_api_schlüssel';
 ```
 ### App starten:
 
-
-Für iOS:
-
 ```bash
-npx react-native run-ios
+npx expo start
 ```
-Für Android:
 
-```bash
-npx react-native run-android
-```
+
 ## Nutzung
 
 - **Tankstellen anzeigen:** Öffne die App, um eine Liste der nahegelegenen Tankstellen zu sehen. Die Preise werden automatisch aktualisiert.
@@ -60,6 +62,7 @@ npx react-native run-android
 
 - **React Native:** Framework zum Erstellen mobiler Anwendungen.
 - **Tankerkönig API:** Wird verwendet, um aktuelle Kraftstoffpreise abzurufen.
+- **Expo:** Entwicklungs-Toolkit für React Native Apps.
 - **Weitere Abhängigkeiten:** Siehe `package.json` für eine vollständige Liste der verwendeten Bibliotheken.
 
 
